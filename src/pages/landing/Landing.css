@@ -1,0 +1,14 @@
+.home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+}
+
+.btns {
+    flex:0.1;
+    padding-top: 8vh;
+}

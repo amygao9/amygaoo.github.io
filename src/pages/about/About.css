@@ -3,20 +3,39 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     font-family: var(--main-font-family);
-    margin-top: 25px;
+    font-size: 48px;
 }
 
 .description {
     background-color: var(--secondary);
+    text-shadow: none;
     display: flex;
     border-radius: 30px;
     width: 70vw;
-    height: 50vh;      
-    /* justify-content: center;
-    align-items: center;
-    align-content: center; */
+    height: 30vh;      
     padding: 10px;
+    font-size: 20px !important;
+}
+.about-info {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.profile {
+
+    object-fit: cover;
+    width: 25vw;
+    height: 25vw;
+    padding: 6px;
+    border-radius: 25vw;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+
 }

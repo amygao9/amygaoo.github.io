@@ -4,12 +4,14 @@
   
 .nav-theme {
     font-size: 20px;
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
+    background-color: rgba(0,0,0,0.2);
     
 }
 .nav-links {
     color: white !important;
     font-family: var(--main-font-family);
+    text-decoration: none !important;
 }
 .bold {
     font-style: oblique;
@@ -18,6 +20,10 @@
 
 .nav-links:hover {
     color: var(--accent) !important;
+}
+.active {
+    color: var(--accent) !important;
+    border-bottom: 3px solid var(--accent);
 }
 
 .animate-navbar {

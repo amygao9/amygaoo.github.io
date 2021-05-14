@@ -10,16 +10,20 @@ import Skills from './pages/skills/Skills'
 function App() {
   return (
     <>
-      <Router>
+      {/* <Router> */}
         <MyNavbar/>
-          <Switch>
+        <Landing/>
+        <About/>
+        <Projects/>
+        <Skills/>
+        {/* <Switch>
             <Route path = '/' exact component = {Landing}/>
             <Route path = '/home' component = {Landing}/>
             <Route path = '/about' component = {About}/>
             <Route path = '/projects' component = {Projects}/>
             <Route path = '/skills' component = {Skills}/>
-          </Switch>
-      </Router>
+          </Switch> */}
+      {/* </Router> */}
       
     </>
   );

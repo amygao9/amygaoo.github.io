@@ -10,9 +10,9 @@
     --main-font-family: 'Quicksand';
 };
 .container {
-    width: var(--container-width);
-    height: 100%;
-    margin: 20px auto;
+    /* width: var(--container-width);
+    height: 100%; */
+    overflow:hidden;
 }
 
 .primary-background {
@@ -30,4 +30,12 @@
 
 .medium-shadow {
     box-shadow: 5px 5px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.slope {
+    width:110%;
+    top:-5%;
+    left:-5%;
+    transform:rotate(2deg);
+    background-color: yellow;
 }

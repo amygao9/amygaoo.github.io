@@ -1,9 +1,42 @@
 .skills {
     height: 100vh;
-    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+    text-align: center;
     background-color: white;
+    font-family: var(--main-font-family);
+    font-size: 48px;
+    padding-top: 10vh;
+}
+.skills-info {
+    display: flex;
+    text-align: left;
+
+    flex-direction: column;
+    font-size: 36px  !important;
+    margin: 10px 10vw;
+    /* justify-content: flex-start; */
+    /* align-items: center;
+    align-content: center; */
+}
+Image {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.box {
+    background-color: var(--secondary);
+    text-shadow: none;
+    display: flex;
+    border-radius: 30px;
+    max-width: 15vh;
+    max-height: 15vh; 
+    /* margin-left: 20px;    */
+    object-fit: contain;  
+    overflow: hidden;
+    display:block
+}
+.box:hover {
+    transform: scale(1.1);
 }

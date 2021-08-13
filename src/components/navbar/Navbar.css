@@ -4,12 +4,12 @@
   
 .nav-theme {
     font-size: 20px;
-    /* background-color: var(--primary); */
-    background-color: rgba(0,0,0,0.2);
+    background-color: var(--secondary);
+    padding: 20px;
     
 }
 .nav-links {
-    color: white !important;
+    color: var(--black) !important;
     font-family: var(--main-font-family);
     text-decoration: none !important;
 }
@@ -19,11 +19,11 @@
 }
 
 .nav-links:hover {
-    color: var(--accent) !important;
+    color: var(--blue) !important;
 }
 .active {
-    color: var(--accent) !important;
-    border-bottom: 3px solid var(--accent);
+    color: var(--blue) !important;
+    border-bottom: 3px solid var(--blue);
 }
 
 .animate-navbar {

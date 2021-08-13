@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 :root {
     --container-width: 90%;
     --primary: #8192C8;
     --white: #FFFFFF;
-    --accent: #FFC28D;
+    --black: #222222;
+    --blue: #8dadff;
+    --accent: #fec99b;
     --accent-hover: #fea65a;
-    --secondary: #E9ECF4;
-    --main-font-family: 'Quicksand';
+    --secondary: #eaeef9;
+    --main-font-family: 'Open Sans', sans-serif;
 };
 .container {
     /* width: var(--container-width);
@@ -20,12 +22,17 @@
 }
 
 #title {
-    color: var(--white);
+    color: var(--black);
     font-size: 64px;
 }
 
-.small-shadow {
+.text-shadow {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.small-shadow {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
 }
 
 .medium-shadow {

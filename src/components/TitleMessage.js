@@ -5,13 +5,12 @@ import '../App.css'
 const MyTitleMessage = styled.h1`
   text-align: center;
   font-family: var(--main-font-family);
-  font-weight: 25;
   strong {
-    font-size: 1.25em;
+    font-size: 1.10em;
   }
   
   div {
-    color: var(--white);
+    color: var(--black);
     .main {
         font-size: 50px;
     }
@@ -26,17 +25,17 @@ function TitleMessage() {
     <MyTitleMessage class = "title">
       <div className="titleMessage">
         <div className="heading">
-          <div className="main text-center mb-3 small-shadow">
-            Hey there! I'm
-            <br />
+          <div className="main text-center mb-3">
+            Hi, I'm   
+            
             <span>
-              <strong>Amy Gao</strong>
+              <strong> Amy Gao 👋🏼</strong>
             </span>
           </div>
-          <div className="sub small-shadow">
+          <div className="sub">
             <Typewriter
               options={{
-                strings: ["Aspiring Software Engineer", "Data Scientist", "UofT CS 2023 Graduate", "Eager Learner"],
+                strings: ["Aspiring Software Engineer", "Data Scientist", "UofT Computer Science Class of 23'", "Eager Learner"],
                 autoStart: true,
                 loop: true,
                 delay: 50
